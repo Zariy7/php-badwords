@@ -16,7 +16,10 @@
             <div class="row">
                 <div class="col-12">
                     <?php
+                        echo $paragraph;
+                        echo "Lunghezza originale:" strlen($paragraph);
                         echo $new_paragraph;
+                        echo "Lunghezza censurata:" strlen($new_paragraph);
                     ?>
                 </div>
             </div>
