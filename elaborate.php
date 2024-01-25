@@ -17,9 +17,9 @@
                 <div class="col-12">
                     <?php
                         echo $paragraph;
-                        echo "Lunghezza originale:" strlen($paragraph);
+                        echo "<h5>Lunghezza originale: ".strlen($paragraph)."</h5>";
                         echo $new_paragraph;
-                        echo "Lunghezza censurata:" strlen($new_paragraph);
+                        echo "<h5>Lunghezza censurata: ".strlen($new_paragraph)."</h5>";
                     ?>
                 </div>
             </div>
